@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Random</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--Font -->
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+<!--Reveal -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!-- cycle-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
+<script>
+function suby(){
+var a=document.getElementById('f').value;
+var b=document.getElementById('l').value;
+var c=document.getElementById('e').value;
+var d=document.getElementById('p').value;
+var e=document.getElementById('m').value;
+if(a == ""){
+alert("Name please");
+}
+}
+</script>
+</header>
+<style>
+body{
+text-align:center;
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+.head{
+position:fixed;
+z-index:99;
+width:100%;
+background:white;
+top:-50px;
+height:159px;
+}
+.head h1{
+font-family:'Cookie';
+font-size:2.9em;
+position:relative; top:50px;
+left:80px;
+width:10%;
+opacity:0.5;
+}
+
+.head h1 a{
+text-decoration:none;
+color:black;
+}
+
+.navi{
+text-align:center;
+}
+.navi ul li{
+display:inline-block;
+list-style:none;
+padding:15px;
+}
+
+.navi a{
+color:grey;
+text-decoration:none;
+font-size:1.3em;
+}
+
+.navi li a:hover{
+color:#242424;
+}
+
+
+.i{
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+
+}
+
+textarea{
+width:50%;
+height:100px;
+resize:none;
+}
+.i{
+height:210px;
+}
+.po{
+line-height:1.9em;
+}
+
+.footer{
+text-align:center;
+padding:25px;
+border:1px solid silver;
+background:#7A8160;
+}
+footer a{
+color:white;
+}
+
+footer ul li{
+display:block;
+padding:8px;
+}
+.p{
+padding:20px;
+line-height:2.9em;
+font-family:georgia;
+font-size:1.5em;
+opacity:0.7;
+text-align:justify;
+
+}
+
+.form-control{
+width:50%;
+border:1px solid silver;
+border-radius:0px;
+margin-left:25%;
+}
+
+.form-control{
+outline:none;
+
+}
+
+.pdiv h1{
+opacity:0.7;
+}
+form input{
+padding:20px;
+text-align:center;
+width:50%;
+}
+.icon-bar{
+background-color:black;
+}
+
+@media screen and (max-width:760px){
+*{
+
+}
+.navi ul li{
+display:block;
+}
+.navi{
+background:white;
+width:100%;
+
+}
+
+
+.all img{
+width:100%;
+}
+
+form input{
+}
+textarea{
+}
+
+.head h1{
+width:63%;
+}
+.{
+width:100%;
+margin-left:0;
+}
+
+
+}
+
+
+</style>
+<body class="">
+<div class="container">
+<header class="head">
+<h1 class="" style=""><a href="home.html">Stephany's</a></h1>
+<nav class="navi">
+<div class="navbar-header"><button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar" style="background:none; outline:none; border:none;">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button></div>
+<div id="mynavbar" class="collapse navbar-collapse">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</div>
+</nav>
+</header>
+<br><br>
+<br><br>
+<br><br>
+<h5 style="line-height:1.5em;">
+Should you have any question please submit the form below<br> and some one will contact you as soon as possible<br>
+<h4>or call 555.555.555.</h4>
+<h5>
+<form onsubmit="suby();" method="post">
+<input type="text" id="f" placeholder="First-Name" class="form-control"><br>
+<input type="text" id="l" placeholder="Last-Name" class="form-control">
+<br>
+<input type="text" id="e" placeholder="Email" class="form-control"><br>
+<input type="text" id="p" placeholder="Phone-Number" class="form-control"><br>
+<textarea id="m" placeholder="Message..."></textarea><br>
+<input type="submit" value="Submit" style=" background:black; outline:none; color:silver;"class="form-control">
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<br>
+<br>
+<footer class="footer">
+<div class="container">
+<div style="color:silver; font-size:1.5em;">Call: 555.555.555</div>
+
+<div class="row">
+<div class="">
+<img src="https://www.uspca.com/wp-content/uploads/facebook-logo-png-white-i6.png" width="5%" height="">
+<img src="http://www.indiana.edu/~cewit/conference/images/twitterlogo.png" width="5%" height="">
+<img src="http://www.userlogos.org/files/logos/siipikarja/linkedin_white_silhouet.png" width="10%" height="">
+</div>
+</div>
+</div>
+&#169 Stephany's 2017 ALL RIGHTS RESERVED
+</footer>
+<script>
+$(document).ready(function(){
+$('.button').click(function(){
+$('body,html').animate({scrollTop:"680px"});
+$('header').css({display:'none'});
+});
+});
+
+</script>
+<script src="wow.min.js"></script>
+ <script>
+              new WOW().init();
+              </script>
+</body>
+</html>

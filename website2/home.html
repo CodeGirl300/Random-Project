@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Random</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--Font -->
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+<!--Reveal -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!-- cycle-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.js"></script>
+</header>
+<style>
+body{
+text-align:center;
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+.head{
+position:fixed;
+z-index:99;
+width:100%;
+background:white;
+top:-50px;
+height:159px;
+}
+.head h1{
+font-family:'Cookie';
+font-size:2.9em;
+position:relative; top:50px;
+left:80px;
+width:10%;
+opacity:0.5;
+}
+
+.head h1 a{
+text-decoration:none;
+color:black;
+}
+
+.navi{
+text-align:center;
+}
+.navi ul li{
+display:inline-block;
+list-style:none;
+padding:15px;
+}
+
+.navi a{
+color:grey;
+text-decoration:none;
+font-size:1.3em;
+}
+
+.navi li a:hover{
+color:#242424;
+}
+.section{
+text-align:center;
+color:black;
+width:100%;
+z-index:-1;
+background:white;
+margin-top:125px;
+}
+
+.section img{
+width:100%;
+}
+
+.image1{
+background-image:url('http://fullthrottle.msol28.com/wp-content/uploads/2015/04/Weddings-Flowers-Events-Planner-Corporate-Social-Sarah-Helen-Dallas-TX.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+width:100%;
+opacity:0.8;
+z-index:-1;
+height:400px;
+}
+
+.image2{
+background-size:cover;
+background-repeat:no-repeat;
+text-align:center;
+
+color:black;
+font-size:1.9em;
+line-height:2.5em;
+letter-spacing:.2em;
+}
+.image2 q{
+font-family:georgia;
+}
+.image2 p{
+padding:25px;
+}
+ .h1{
+padding-top:10%;
+padding-bottom:10%;
+opacity:0.5;
+line-height:1.7em;
+font-size:3.2em;
+}
+
+.section-part1{
+text-align:center;
+}
+
+.news{
+background:#001122;
+height:570px;
+width:100%;margin-top:-20px;
+text-align:center;
+padding:50px;
+}
+
+.news p{
+font-size:.7em;
+}
+
+.news h1{
+color:black;
+}
+
+.i{
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+
+}
+
+.ii{
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+
+}
+.iii{
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+
+
+}
+
+.i,.ii,.iii{
+height:210px;
+padding:15px;
+
+}
+
+.footer{
+text-align:center;
+padding:25px;
+border:1px solid silver;
+background:#7A8160;
+}
+footer a{
+color:white;
+}
+
+footer ul li{
+display:block;
+padding:8px;
+}
+
+.button1{
+background:none;
+border:1px solid black;
+padding:20px;
+}
+.button2{
+padding:18px;
+background:black;
+color:white;
+outline:none;
+}
+aside{
+padding-top:30px;
+}
+.icon-bar{
+background-color:black;
+}
+
+@media screen and (max-width:760px){
+.navi ul li{
+display:block;
+}
+.navi{
+background:white;
+width:100%;
+}
+
+.image1{
+height:auto;
+padding:50px;
+}
+
+.head h1{
+width:63%;
+}
+
+.call{
+
+}
+}
+
+</style>
+<body class="">
+<div class="container">
+<header class="head">
+<h1 class="" style=""><a href="home.html">Stephany's</a></h1>
+<nav class="navi">
+<div class="navbar-header"><button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar" style="background:none; outline:none; border:none;">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button></div>
+<div id="mynavbar" class="collapse navbar-collapse">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</div>
+</nav>
+</header>
+<div class="section-part1">
+<section class="section">
+<div class="image1"><h1 class="h1"></h1></div>
+</section>
+<div class="image2">
+<p class="">
+<q>
+A perfect wedding
+</q><br>
+~Unknown
+</p>
+</div>
+</div>
+<div class="carousel slide" id="slider" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#slider" data-slide-to="0"></li>
+<li data-target="#slider" data-slide-to="1"></li>
+<li data-target="#slider" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" role="list-box">
+<div class="item active"><!--active -->
+<div class="col-sm-4">
+<img src="https://www.giltcity.com/images/share/uploads/0000/0005/1016/510166202/orig.jpg" width="100%" class="i" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://www.sarahhaywood.com/media/4622/eh-replacement-2.jpg?anchor=center&mode=crop&width=305&height=300&rnd=131223952640000000" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://www.hamaraevent.com/uploads/blog/0496826001474616034.jpg" width="100%" class="iii" style="">
+</div>
+</div><!-- active -->
+<div class="item"><!--Non active class-->
+<div class="col-sm-4"><img src="https://storage.googleapis.com/idx-acnt-gs.ihouseprd.com/AR466840/file_manager/Austin-Wedding-Photographers-007.jpg" width="100%"  class="i" style=""></div>
+<div class="col-sm-4">
+<img src=" 
+https://apis.xogrp.com/media-api/images/f344daef-b956-4db2-bb6e-17b268014e1f~rs_768.h?quality=75" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://psluxuryevents.com/wp-content/uploads/2011/09/eventss.jpg" width="100%" class="iii" style="">
+</div>
+</div><!--Non active class -->
+<!--second non-active -->
+<div class="item"><!--Non active -->
+<div class="col-sm-4">
+<img src="https://apis.xogrp.com/media-api/images/ba3eb532-fb1d-4bc7-973a-9630d8d7a159~rs_768.h" width="100%" class="i" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://upload.weddbook.com/blogs/-pure-white-elegant-wedding-receptions-1044-int.jpg" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://www.hamaraevent.com/uploads/blog/0496826001474616034.jpg" width="100%" class="iii" style="">
+</div>
+</div><!--Non active -->
+</div>
+</div>
+<!-- second line-->
+<h1>Wedding reception</h1>
+<div class="carousel slide" id="slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#slide" data-slide-to="0"></li>
+<li data-target="#slide" data-slide-to="1"></li>
+<li data-target="#slide" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" role="list-box">
+<div class="item active"><!-- active class-->
+<div class="col-sm-4"><img src="https://s-media-cache-ak0.pinimg.com/736x/e7/0b/b6/e70bb6bb982171f9eab85265fa321b3e.jpg" width="100%"  class="i" style=""></div>
+<div class="col-sm-4">
+<img src="https://s-media-cache-ak0.pinimg.com/564x/88/e8/3a/88e83a35d583e53b966fb0be71f0f04d.jpg" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="https://s-media-cache-ak0.pinimg.com/236x/de/a7/d9/dea7d9c2c8eef70f67e3e025f302f9b9.jpg" width="100%" class="iii" style="">
+</div>
+</div><!--active class -->
+
+<div class="item"><!--Non active -->
+<div class="col-sm-4">
+<img src="https://s-media-cache-ak0.pinimg.com/originals/82/4e/fe/824efeece0cf837a798ac8592184ad42.jpg" width="100%" class="iii" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://www.sarahhaywood.com/media/4622/eh-replacement-2.jpg?anchor=center&mode=crop&width=305&height=300&rnd=131223952640000000" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="https://www.giltcity.com/images/share/uploads/0000/0005/1016/510166202/orig.jpg" width="100%" class="i" style="">
+</div>
+</div><!--Non active -->
+<!--second non-active -->
+<div class="item"><!--Non active -->
+<div class="col-sm-4">
+<img src="https://wedding-pictures.onewed.com/match/images/48661/stunning-wedding-reception-tablescapes-outdoor-white-flowers.original.jpg?1379137877" width="100%" class="i" style="">
+</div>
+<div class="col-sm-4">
+<img src="http://www.springsweddings.com/common/wedding-decorations-3.jpg" width="100%" class="ii" style="">
+</div>
+<div class="col-sm-4">
+<img src="https://s-media-cache-ak0.pinimg.com/736x/88/48/fa/8848fabc668d402c8c8d99aed71e7d9f.jpg" width="100%" class="iii" style="">
+</div>
+</div><!--Non active -->
+</div>
+</div>
+</div>
+<aside>
+<span class="button1">Let's help make your wedding Beautiful</span><button class="button2">Set event</button>
+</div>
+<aside>
+<br>
+<footer class="footer">
+<div class="call" style="color:silver; font-size:1.5em;">Call: 555.555.555</div>
+<div class="container">
+<div class="row">
+<div class="">
+<img src="https://www.uspca.com/wp-content/uploads/facebook-logo-png-white-i6.png" width="5%" height="">
+<img src="http://www.indiana.edu/~cewit/conference/images/twitterlogo.png" width="5%" height="">
+<img src="http://www.userlogos.org/files/logos/siipikarja/linkedin_white_silhouet.png" width="10%" height="">
+</div>
+</div>
+</div>
+&#169 Stephany's 2017 ALL RIGHTS RESERVED
+</footer>
+<script>
+$(document).ready(function(){
+$('.button').click(function(){
+$('body,html').animate({scrollTop:"680px"});
+$('header').css({display:'none'});
+
+});
+</script>
+<script src="wow.min.js"></script>
+ <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
